@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <link rel="shortcut icon" href="../IMG/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../CSS/normalize.css">
+  <link rel="stylesheet" href="../CSS/style.css">
+  <meta name="viewport" content="width=device-width ">
+</head>
+<body>
+  <main class="container">
+    <section class="wrapper">
+      <div class="score">
+        <span class="score_title">SCORE</span>
+        <div class="score_img_wrapper">
+          <img class="score_img" src="../IMG/cross.svg"><span id="scoreX">:0</span>
+          <img class="score_img" src="../IMG/circle.svg"><span id="score0">:0</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="field" id="field_id">
+      <div class="cell"></div>
+      <div id="vertical_lines" class="cell"></div>
+      <div id="vertical_lines" class="cell"></div>
+
+      <div id="horizontal_lines" class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+
+      <div id="horizontal_lines" class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+    </section>
+    <footer class="footer">
+      <div class="footer_copyright">
+        <a href="https://github.com/AlexHalin" target="_blank"><button class="btn" id="developer">AlexHalin</button></a>
+      </div>
+    </footer>
+  </main>
+  <section class="popup">
+    <div class="popup_bg">
+      <span id="win_name">Draw</span>
+      <button id="btn_arrow"><img src="../IMG/rotating_arrow.svg" width="50px"></button>
+      <button id="btn_NG">New Game</button>
+    </div>
+  </section>
+<script src="../JS/game.js"></script>
+</body>
+</html>
