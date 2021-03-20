@@ -92,7 +92,8 @@ body, html {
     .container .footer .btn {
       padding: 0.7rem 1rem;
       border: none;
-      cursor: pointer; }
+      cursor: pointer;
+      background-color: #dadada; }
       .container .footer .btn:hover, .container .footer .btn:focus {
         background-color: #a3a3a3; }
 
